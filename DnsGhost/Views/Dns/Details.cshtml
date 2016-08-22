@@ -1,0 +1,29 @@
+﻿@model DnsGhost.Models.DnsEntry
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>DnsEntry</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Token)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Token)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IpValue)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IpValue)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

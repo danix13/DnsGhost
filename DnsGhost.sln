@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnsGhost", "DnsGhost\DnsGhost.csproj", "{6C89CD88-0A21-46FD-9463-7B01FF8EE684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnsGhost.Tests", "DnsGhost.Tests\DnsGhost.Tests.csproj", "{2DCCD3D5-77C2-4953-868D-2943C8BEE04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{AC72BC75-71E5-4291-BD1E-D13A6D380704}"
+EndProject
+Global	
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C89CD88-0A21-46FD-9463-7B01FF8EE684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C89CD88-0A21-46FD-9463-7B01FF8EE684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C89CD88-0A21-46FD-9463-7B01FF8EE684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C89CD88-0A21-46FD-9463-7B01FF8EE684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCCD3D5-77C2-4953-868D-2943C8BEE04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCCD3D5-77C2-4953-868D-2943C8BEE04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCCD3D5-77C2-4953-868D-2943C8BEE04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCCD3D5-77C2-4953-868D-2943C8BEE04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC72BC75-71E5-4291-BD1E-D13A6D380704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC72BC75-71E5-4291-BD1E-D13A6D380704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC72BC75-71E5-4291-BD1E-D13A6D380704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC72BC75-71E5-4291-BD1E-D13A6D380704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
