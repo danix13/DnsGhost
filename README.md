@@ -19,15 +19,15 @@ with the right computer you are looking for
 e.g.
 ```xml
 <appSettings>
-    <add key="dnsGhostUrl" value="http://ownmeca0.w15.wh-2.com/DnsGhost/dns/retrieve/midaed/midaedserver"/>
+    <add key="dnsGhostUrl" value="http://ownmeca0.w15.wh-2.com/DnsGhost/dns/retrieve/username/computername"/>
 </appSettings>
 ```
 
-See it in action here http://ownmeca0.w15.wh-2.com/DnsGhost/ use midaed as username
+Short explaination
 
-Use the http://ownmeca0.w15.wh-2.com/DnsGhost/dns/update/username/computername to register a computer
-Use the http://ownmeca0.w15.wh-2.com/DnsGhost/dns/retrieve/username/computername to retrieve its address.
-Use the http://ownmeca0.w15.wh-2.com/DnsGhost/dns/retrieve/username/all to retrieve all the registered computers for the user.
+Use the http://fixedIP.com/DnsGhost/dns/update/username/computername to register a computer
+Use the http://fixedIP.com/DnsGhost/dns/retrieve/username/computername to retrieve its address.
+Use the http://fixedIP.com/DnsGhost/dns/retrieve/username/all to retrieve all the registered computers for the user.
 The IP reporting can be automated by installing the DnsGhost service on your PC
 To insure you the program is not mailitious the source code is included.
 After unzipping the file don't forget to change the *.config file, instructions included inside!!!
