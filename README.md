@@ -1,7 +1,7 @@
 # DnsGhost
 Want to run a server on a dynamic IP address? Allows a server to periodically report its IP address. Code to allow clients to find the server.
 
-Install the web application on a static IP address machine
+Install the web application on a static IP address machine and restore the database *.bak on a SQL server 2012 or higher
 e.g. 
 http://ownmeca0.w15.wh-2.com/DnsGhost/
 
